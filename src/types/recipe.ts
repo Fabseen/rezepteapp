@@ -1,0 +1,1 @@
+export type Recipe = { id: string; title: string; category: string; time: string; difficulty: 'Einfach' | 'Mittel' | 'Anspruchsvoll'; image: string; description: string; ingredients: string[]; steps: string[] };
